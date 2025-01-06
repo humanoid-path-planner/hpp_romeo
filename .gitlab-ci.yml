@@ -1,1 +1,1 @@
-include: http://rainboard.laas.fr/project/hpp-romeo/.gitlab-ci.yml
+include: https://rainboard.laas.fr/project/hpp_romeo/.gitlab-ci.yml
