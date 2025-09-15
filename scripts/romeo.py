@@ -1,11 +1,11 @@
 import random
 
+from hpp.corbaserver.wholebody_step.client import Client as WholebodyStepClient
 from hpp_ros import PathPlayer, ScenePublisher
 
 from hpp import Quaternion  # noqa: F401
 from hpp.corbaserver import ProblemSolver
 from hpp.corbaserver.romeo import Robot
-from hpp.corbaserver.wholebody_step.client import Client as WholebodyStepClient
 
 robot = Robot("romeo")
 robot.setJointBounds("base_joint_x", [-4, 3])
