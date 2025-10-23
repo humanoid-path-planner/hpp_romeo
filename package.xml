@@ -1,6 +1,6 @@
 <package>
   <name>hpp_romeo</name>
-  <version>6.0.0</version>
+  <version>6.1.0</version>
   <description>
     Python and ros launch files for Romeo robot in hpp.
   </description>
