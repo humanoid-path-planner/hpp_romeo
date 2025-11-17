@@ -23,8 +23,12 @@ class Robot(Parent):
     """
 
     #  Information to retrieve urdf and srdf files.
-    urdfFilename = "package://example-robot-data/robots/romeo_description/urdf/romeo.urdf"
-    srdfFilename = "package://example-robot-data/robots/romeo_description/srdf/romeo_moveit.srdf"
+    urdfFilename = (
+        "package://example-robot-data/robots/romeo_description/urdf/romeo.urdf"
+    )
+    srdfFilename = (
+        "package://example-robot-data/robots/romeo_description/srdf/romeo_moveit.srdf"
+    )
 
     halfSitting = {
         "LEyePitch": 0,
